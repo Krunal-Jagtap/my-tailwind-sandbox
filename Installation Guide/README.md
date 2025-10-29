@@ -13,16 +13,23 @@
 
 ### Run this command :
 
-- > npm install tailwindcss @tailwindcss/cli
+```bash
+npm install tailwindcss @tailwindcss/cli
+```
 
 - Create Folder ( src )
 - Create File ( input.css ) in **src** folder
 - Save this code in input.css
-- > @import "tailwindcss";
+
+```bash
+@import "tailwindcss";
+```
 
 ### Run this command :
 
-- > npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+```bash
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+```
 
 - Create File ( index.html ) in src folder
 - Copy - Pest below code in **index.html**
