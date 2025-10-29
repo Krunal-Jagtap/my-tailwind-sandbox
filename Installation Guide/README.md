@@ -40,12 +40,14 @@ npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind</title>
+    <title>Tailwind Installation</title>
     <link rel="stylesheet" href="./output.css" />
   </head>
 
   <body>
-    <h1 class="text-3xl font-bold underline bg-amber-500">Hello world!</h1>
+    <h1 class="text-5xl bg-orange-600 text-white p-8 text-center font-bold">
+      Tailwind CSS Installed ✅
+    </h1>
   </body>
 </html>
 ```
